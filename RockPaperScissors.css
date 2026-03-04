@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(5, 5, 5);
+}
+
+.Container {
+  position: fixed;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0;
+  text-align: center;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 90px;
+  left: 540px;
+  transform: translateX(-50%);
+  margin-top: 0;
+
+  background-color: black;
+  height: 50px;
+  gap: 20px;
+  color: red;
+}
+
+.One,
+.Two,
+.Middle {
+  color: rgb(119, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border: green;
+  font-size: 50px;
+  gap: 20px;
+  transition-duration: 0.3s;
+}
+.One:hover {
+  color: rgb(255, 6, 6);
+  font-size: 60px;
+}
+.Two:hover {
+  color: rgb(255, 8, 8);
+  font-size: 60px;
+}
+
+.Rock {
+  background-color: rgb(185, 1, 1);
+  color: rgb(240, 234, 234);
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+
+.Paper {
+  background-color: rgb(1, 65, 10);
+  color: rgb(240, 234, 234);
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+.Scissors {
+  background-color: rgb(15, 1, 65);
+  color: rgb(240, 234, 234);
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+
+.Rock:hover {
+  background-color: rgb(240, 234, 234);
+  color: rgb(185, 1, 1);
+}
+
+.Paper:hover {
+  background-color: rgb(240, 234, 234);
+  color: rgb(2, 89, 10);
+}
+
+.Scissors:hover {
+  background-color: rgb(240, 234, 234);
+  color: rgb(15, 1, 65);
+}
+
+#Result {
+  color: rgb(126, 1, 1);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
